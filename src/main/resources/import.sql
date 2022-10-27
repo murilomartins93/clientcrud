@@ -1,0 +1,13 @@
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES('William Hartnell', '118.889.760-71', 1000.43, '1963-11-23', 2);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES('Patrick Troughton', '232.153.320-00', 2000.30, '1966-10-29', 2);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES('Jon Pertwee', '316.969.300-06', 3000.28, '1970-01-03', 4);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES('Tom Baker', '440.297.450-08', 4000.12, '1974-06-08', 6);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES('Peter Davidson', '569.933.640-00', 5000.43, '1981-03-21', 2);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES('Colin Baker', '643.752.790-01', 6000.25, '1984-03-16', 2);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES('Sylvester McCoy', '734.429.690-85', 7000.65, '1987-09-07', 2);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES('Paul McGann', '837.869.660-95', 8000.53, '1996-05-27', 0);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES('Christopher Eccleston', '962.928.230-40', 9000.57, '1995-03-26', 0);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES('David Tennant', '104.438.990-06', 10000.64, '1995-06-18', 4);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES('Matt Smith', '112.305.490-00', 11000.63, '1990-01-01', 3);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES('Peter Capaldi', '128.727.770-36', 12000.67, '1973-12-25', 4);
+INSERT INTO tb_client(name, cpf, income, birth_date, children) VALUES('Jodie Whittaker', '130.021.840-34', 13000.61, '1987-12-25', 4);
