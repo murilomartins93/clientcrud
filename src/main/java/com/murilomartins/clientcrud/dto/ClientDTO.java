@@ -4,12 +4,17 @@ import java.time.LocalDate;
 
 import com.murilomartins.clientcrud.entities.Client;
 
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.PastOrPresent;
+
 public class ClientDTO {
 
 	private Long id;
+	@NotBlank(message = "Required field")
 	private String name;
 	private String cpf;
 	private Double income;
+	@PastOrPresent(message = "Future date not allowed")
 	private LocalDate birthDate;
 	private Integer children;
 	
