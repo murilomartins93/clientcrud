@@ -2,6 +2,8 @@ package com.murilomartins.clientcrud.dto;
 
 import java.time.LocalDate;
 
+import com.murilomartins.clientcrud.entities.Client;
+
 public class ClientDTO {
 
 	private Long id;
@@ -21,7 +23,7 @@ public class ClientDTO {
 		this.children = children;
 	}
 	
-	public ClientDTO(ClientDTO entity) {
+	public ClientDTO(Client entity) {
 		id = entity.getId();
 		name = entity.getName();
 		cpf = entity.getCpf();
